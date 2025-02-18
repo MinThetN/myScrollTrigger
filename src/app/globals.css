@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+htm, body{
+  width: 100%;
+  height: 100%;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section {
+  position: relative;
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  height: 100vh;
+}
+.hero .img {
+  width: 50%;
+  aspect-ratio: 1;
+}
+
+.main {
+  width: 100vw;
+  height: 150vh;
+  flex-direction: column;
+}
+
+.row {
+  position: relative;
+  width: 100vw;
+  margin: 1em 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.card {
+  position: relative;
+  width: 40%;
+  height: 360px;
+  border-radius: 0.75em;
+  overflow: hidden;
+  will-change: transform;
+}

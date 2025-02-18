@@ -28,13 +28,13 @@ export default function Home() {
       <ReactLenis root>
         <section className="hero">
           <div className="img">
-           <img src="/pro-logo.png" alt="" />
+           <img src="/arcane_3.jpeg" alt="" />
           </div>
         </section>
         <section className="main">
           <div className="main-content">
             <div className="logo">
-              <img src="/logo.jpg" alt="" />
+              <img src="/logo.png" alt="" />
             </div>
             {/* Text */}
             <div className="copy"> 
